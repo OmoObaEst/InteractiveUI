@@ -28,9 +28,24 @@ struct ContentView: View {
 
         }
         .padding()
+      
     }
 }
+
+VStack {
+    Text(textTitle)
+        .font(.title)
+    TextField("Type your age here...",
+              text: $age)
+}
+
+
 
 #Preview {
     ContentView()
 }
+
+
+//Practice
+
+
